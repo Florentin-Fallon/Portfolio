@@ -1,11 +1,12 @@
 import React from 'react'
+import {info} from "../info/info"
 
 function NavBar() {
   return (
     <div>
         <nav class="flex items-center bg-black p-3 flex-wrap">
           <a href="/">
-          <span class="text-xl text-white font-semibold uppercase ml-6"><span className='text-orange-400'>Florentin</span> Fallon</span>
+          <span class="text-2xl font-semibold uppercase ml-6 text-orange-400">{info.surnom}</span>
           </a>
         <div class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto mr-6" id="navigation">
           <div class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
