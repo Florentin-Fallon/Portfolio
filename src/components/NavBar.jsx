@@ -2,43 +2,52 @@ import React from 'react'
 import {info} from "../info/info"
 
 function NavBar() {
+  function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
   return (
     <div>
-        <nav class="flex items-center bg-black p-3 flex-wrap">
+        <nav className="flex items-center bg-black p-3 flex-wrap mt-4">
           <a href="/">
-          <span class="text-2xl font-semibold uppercase ml-6 text-orange-400">{info.surnom}</span>
+          <span className="text-2xl font-semibold uppercase ml-6 text-orange-400">{info.surnom}</span>
           </a>
-        <div class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto mr-6" id="navigation">
-          <div class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
+        <div className="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto mr-6" id="navigation">
+          <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
             <a
               href="/"
-              class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:text-orange-400"
+              className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:text-orange-400"
+              onClick={() => scrollToSection('accueil')}
             >
               <span>Accueil</span>
             </a>
             <a
-              href="/"
-              class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:text-orange-400"
+              href="#histoire"
+              className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:text-orange-400"
+              onClick={() => scrollToSection('Histoire')}
             >
               <span>Histoire</span>
             </a>
             <a
-              href="/"
-              class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:text-orange-400"
+              href="#competences"
+              className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:text-orange-400"
+              onClick={() => scrollToSection('competences')}
             >
               <span>Compétences</span>
             </a>
             <a
-              href="/"
-              class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:text-orange-400"
+              href="#projets"
+              className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:text-orange-400"
+              onClick={() => scrollToSection('projets')}
             >
               <span>Projets</span>
             </a>
             <a
-              href="/"
-              class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:text-orange-400"
+              href="#contact"
+              className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:text-orange-400 Navlink"
+              onClick={() => scrollToSection('contact')}
             >
-              <span>Contact</span>
+              <span >Contact</span>
             </a>
           </div>
         </div>
@@ -48,4 +57,4 @@ function NavBar() {
   )
 }
 
-export default NavBar
+export default NavBar;

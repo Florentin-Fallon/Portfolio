@@ -2,7 +2,9 @@ import React from 'react'
 
 function Competences() {
   return (
-    <div>Competences</div>
+    <div className='text-white' id='competences'>
+      <h1 className='text-3xl text-center'>Competences</h1>
+    </div>
   )
 }
 

@@ -1,6 +1,8 @@
 import React from 'react';
 import NavBar from './components/NavBar';
 import LandingPage from './components/LandingPage';
+import Histoire from './components/Histoire';
+import Competences from './components/Competences';
 
 function App() {
   return (
@@ -11,6 +13,11 @@ function App() {
       <div>
         <LandingPage />
       </div>
+      <div>
+        <Histoire />
+      </div>
+      <Competences />
+      <div></div>
     </div>
   );
 }
