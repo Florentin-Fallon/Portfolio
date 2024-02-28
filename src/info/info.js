@@ -1,8 +1,10 @@
 import mock1 from "../img/mock1.png"
+import mock2 from "../img/mock2.png"
+import mock3 from "../img/mock3.png"
 
 export const info = {
     firstname: 'Florentin',
-    lastname: ' Fallon',
+    lastname: ' FALLON',
     initials: 'F F',
     surnom: 'Codev',
     position : 'Étudiant en informatique',
@@ -109,29 +111,37 @@ export const info = {
             ],
     hobbies: [
         {
-            emoji: '🎸',
             text: ' Musique',
         },
         {
-            emoji: '⚽️',
             text: ' Football',
         },
         {
-            emoji: '🔫',
             text: ' Airsoft',
         },
         {
-            emoji: '🎨',
             text: ' Dessin',
         },
     ],
     portfolio: [
         {
-            title: "Projet 1",
+            title: "Neversoft",
             description: "Club d'airsoft",
             live: "https://florentin-fallon.github.io/Neversoft/",
             source: "https://github.com/Florentin-Fallon/Neversoft",
             image: mock1
+        },
+        {
+            title: "Projet 2",
+            description: "Générateur d'images aléatoires",
+            source: "https://github.com/Florentin-Fallon/VisionWave.git",
+            image: mock2
+        },
+        {
+            title: "Portfolio",
+            description: "Mon portfolio",
+            source: "https://github.com/Florentin-Fallon/Florentin-Fallon.git",
+            image: mock3
         }
     ]
 }

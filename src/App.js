@@ -3,6 +3,7 @@ import NavBar from './components/NavBar';
 import LandingPage from './components/LandingPage';
 import Histoire from './components/Histoire';
 import Competences from './components/Competences';
+import Projets from './components/Projets';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
       </div>
       <div>
       <Competences />
+      </div>
+      <div>
+        <Projets />
       </div>
     </div>
   );

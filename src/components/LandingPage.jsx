@@ -2,6 +2,7 @@ import React from 'react';
 import { info } from '../info/info';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
+import { ReactTyped } from 'react-typed';
 
 function LandingPage({ link, icon, label }) {
   return (
@@ -10,7 +11,11 @@ function LandingPage({ link, icon, label }) {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <h1 className="text-3xl md:text-5xl font-bold mb-8">
-              Je suis <span className='text-orange-400'>{info.firstname}</span> {info.lastname}
+              <ReactTyped
+                strings={[`Je suis <span class="text-orange-400">${info.firstname} ${info.lastname}</span>`]}
+                typeSpeed={40}
+                backSpeed={0}
+              />
             </h1>
             <p className="text-lg md:text-2xl mt-6 hover:scale-105 transition duration-300 hover:text-orange-400">
               {info.miniBio[0].emoji} {info.miniBio[0].text}

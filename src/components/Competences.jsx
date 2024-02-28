@@ -6,7 +6,7 @@ function Competences() {
   return (
     <div id='competences'>
       <div className='text-white'>
-        <h1 className='text-5xl text-center'>Compétences</h1>
+        <h1 className='text-5xl text-center mt-32'>Compétences</h1>
       </div>
       <h1 className='text-3xl text-center mt-8 text-orange-400 font-semibold'>Front-end</h1>
       <div className='flex justify-center align-middle flex-wrap mt-8'>
