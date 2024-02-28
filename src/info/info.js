@@ -21,7 +21,7 @@ export const info = {
         },
         {
             emoji: ('📧'),
-            text: ' florentinfallon@gmail.com',
+            text: ' florentinfallon7@gmail.com',
         },
     ],
     bio: [
