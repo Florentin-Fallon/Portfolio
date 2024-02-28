@@ -16,8 +16,9 @@ function App() {
       <div>
         <Histoire />
       </div>
+      <div>
       <Competences />
-      <div></div>
+      </div>
     </div>
   );
 }

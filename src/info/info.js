@@ -41,12 +41,72 @@ export const info = {
             label: 'github'
         }
     ],
-    skills:
-        {
-            proficientWith: ['javascript', 'react', 'git', 'github','Tailwind', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'PHP', 'SQL']
-        }
-    ,
+    competences: [
+                {
+                    label: 'HTML',
+                    icon: "fa fa-html5"
+                },
+                {
+                    label: 'CSS',
+                    icon: 'fa fa-css3'
+                },
+                {
+                    label: 'Tailwind',
+                    icon: 'fa fa-tailwind'
+                },
+                {
+                    label: 'Boostrap',
+                    icon: 'fa fa-bootstrap'
+                },
+                {
+                    label: 'React.js',
+                    icon: 'fa fa-react'
+                },
+                {
+                    label: 'React Native',
+                    icon: 'fa fa-react'
+            },
+                {
+                    label: 'JavaScript',
+                    icon: 'fa fa-js'
+                },
+                {
+                    label: 'PHP',
+                    icon: 'fa fa-php'
+                },
+                {
+                    label: 'SQL',
+                    icon: 'fa fa-database'
+                },
+                {
+                    label: 'Node.js',
+                    icon: 'fa fa-node'
+            },
+                {
+                    label: 'Figma',
+                    icon: 'fa fa-figma'
+                },
+                {
+                    label: 'Trello',
+                    icon: 'fa fa-trello'
+                },
+                {
+                    label: 'Notion',
+                    icon: 'fa fa-notion'
+                },
+                {
+                    label: 'JetBrains',
+                    icon: 'fa fa-jetbrains'
+                },
+                {
+                    label: 'VSCode',
+                    icon: 'fa fa-code'
+                },
+                {
+                    label: 'Git',
+                    icon: 'fa fa-git'
+                },
+            ],
     hobbies: [
         {
             emoji: '🎸',

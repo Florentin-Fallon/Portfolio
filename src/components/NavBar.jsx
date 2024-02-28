@@ -4,8 +4,8 @@ import {info} from "../info/info"
 function NavBar() {
   function scrollToSection(sectionId) {
     const section = document.getElementById(sectionId);
-    section.scrollIntoView({ behavior: 'smooth' });
-  }
+    section.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest', speed: 'slow' });
+}
   return (
     <div>
         <nav className="flex items-center bg-black p-3 flex-wrap mt-4">
