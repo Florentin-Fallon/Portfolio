@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.191c2407.css",
+    "main.js": "/static/js/main.e317d0d5.js",
+    "static/media/mock3.png": "/static/media/mock3.5005efa8c4fb749c61ef.png",
+    "static/media/mock4.png": "/static/media/mock4.6e74f118dbf665c2cc2c.png",
+    "static/media/mock7.png": "/static/media/mock7.7e39cd213779f1173fcd.png",
+    "static/media/mock2.png": "/static/media/mock2.57cdd9ec2d4ae01dc201.png",
+    "static/media/football.png": "/static/media/football.bc4dd84a8ac6b6f1eddd.png",
+    "static/media/patch.png": "/static/media/patch.0fdcf3f85af23768db6b.png",
+    "static/media/florentin.jpeg": "/static/media/florentin.b76a8ffa730133b7c2d6.jpeg",
+    "static/media/figma.png": "/static/media/figma.95e8dc1de570ab06efaa.png",
+    "static/media/React.png": "/static/media/React.1d385d14e08b2ed7362a.png",
+    "static/media/PHP-logo.png": "/static/media/PHP-logo.a7759c068d5c9f03bebf.png",
+    "static/media/NodeJS.jpg": "/static/media/NodeJS.a8201b439391a4bfbc0c.jpg",
+    "static/media/mock5.png": "/static/media/mock5.22af49acd3f83119d5f3.png",
+    "static/media/vscode.png": "/static/media/vscode.b7439a02ed85dd0ad9ee.png",
+    "static/media/Git.png": "/static/media/Git.8dd3688bb1415872d423.png",
+    "static/media/mock1.png": "/static/media/mock1.62957359f2f4d2fd5e91.png",
+    "static/media/musique.png": "/static/media/musique.b788e20ed5bbd11c9ab9.png",
+    "static/media/Notion.png": "/static/media/Notion.81f4dd3010aae2da4c2b.png",
+    "static/media/mock6.png": "/static/media/mock6.e8ec024706fae5971a47.png",
+    "static/media/sql.png": "/static/media/sql.ca204b1ec0fbf9b1d98a.png",
+    "static/media/css-3.png": "/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/html-5.png": "/static/media/html-5.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/trello.jpg": "/static/media/trello.57d4d8237674633665f6.jpg",
+    "index.html": "/index.html",
+    "main.191c2407.css.map": "/static/css/main.191c2407.css.map",
+    "main.e317d0d5.js.map": "/static/js/main.e317d0d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.191c2407.css",
+    "static/js/main.e317d0d5.js"
+  ]
+}
