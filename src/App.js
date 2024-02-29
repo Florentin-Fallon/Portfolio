@@ -4,6 +4,8 @@ import LandingPage from './components/LandingPage';
 import Histoire from './components/Histoire';
 import Competences from './components/Competences';
 import Projets from './components/Projets';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,6 +24,12 @@ function App() {
       </div>
       <div>
         <Projets />
+      </div>
+      <div>
+        <Contact />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
