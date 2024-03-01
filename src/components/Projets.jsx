@@ -89,6 +89,17 @@ function Projets() {
           git={info.portfolio[6].source}
           />
           </div>
+          <div className='flex mx-8 mb-6'>
+          <CardProject
+          imgSrc={info.portfolio[7].image}
+          imgAlt={"Application de gestion de tâches"}
+          title={info.portfolio[7].title}
+          description={info.portfolio[7].description}
+          svg1={info.svg[2].Vscode}
+          nameRepos={"Voir le repos"}
+          git={info.portfolio[7].source}
+          />
+          </div>
       </div>
     </div>
   )
