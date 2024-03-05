@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Florentin-Fallon/static/css/main.191c2407.css",
-    "main.js": "/Florentin-Fallon/static/js/main.8bb372d4.js",
+    "main.js": "/Florentin-Fallon/static/js/main.f051f136.js",
     "static/media/mock3.png": "/Florentin-Fallon/static/media/mock3.5005efa8c4fb749c61ef.png",
     "static/media/mock4.png": "/Florentin-Fallon/static/media/mock4.6e74f118dbf665c2cc2c.png",
     "static/media/mock7.png": "/Florentin-Fallon/static/media/mock7.7e39cd213779f1173fcd.png",
@@ -16,6 +16,7 @@
     "static/media/mock5.png": "/Florentin-Fallon/static/media/mock5.22af49acd3f83119d5f3.png",
     "static/media/vscode.png": "/Florentin-Fallon/static/media/vscode.b7439a02ed85dd0ad9ee.png",
     "static/media/Git.png": "/Florentin-Fallon/static/media/Git.8dd3688bb1415872d423.png",
+    "static/media/mock8.png": "/Florentin-Fallon/static/media/mock8.460cb4e0a72c8746b539.png",
     "static/media/mock1.png": "/Florentin-Fallon/static/media/mock1.62957359f2f4d2fd5e91.png",
     "static/media/musique.png": "/Florentin-Fallon/static/media/musique.b788e20ed5bbd11c9ab9.png",
     "static/media/Notion.png": "/Florentin-Fallon/static/media/Notion.81f4dd3010aae2da4c2b.png",
@@ -26,10 +27,10 @@
     "static/media/trello.jpg": "/Florentin-Fallon/static/media/trello.57d4d8237674633665f6.jpg",
     "index.html": "/Florentin-Fallon/index.html",
     "main.191c2407.css.map": "/Florentin-Fallon/static/css/main.191c2407.css.map",
-    "main.8bb372d4.js.map": "/Florentin-Fallon/static/js/main.8bb372d4.js.map"
+    "main.f051f136.js.map": "/Florentin-Fallon/static/js/main.f051f136.js.map"
   },
   "entrypoints": [
     "static/css/main.191c2407.css",
-    "static/js/main.8bb372d4.js"
+    "static/js/main.f051f136.js"
   ]
 }
