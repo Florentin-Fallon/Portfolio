@@ -13,7 +13,7 @@ export const info = {
     initials: 'F F',
     surnom: 'Codev',
     position : 'Étudiant en informatique',
-    github: 'https://github.com/Florentin-Fallon',
+    github: 'https://github.com/Florentin-Fallon/Portfolio.git',
     miniBio: [
         {
             emoji: ('👨‍💻'),
@@ -157,7 +157,7 @@ export const info = {
         {
             title: "Portfolio",
             description: "Mon portfolio",
-            source: "https://github.com/Florentin-Fallon/Florentin-Fallon.git",
+            source: "https://github.com/Florentin-Fallon/Portfolio.git",
             image: mock3
         },
         {
