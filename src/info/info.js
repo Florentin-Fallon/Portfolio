@@ -34,7 +34,7 @@ export const info = {
     ],
     bio: [
         {
-            text: "Mon parcours a débuté avec un diplôme en Bac Pro option Jardinerie, mais un accident du travail a changé le cours de ma vie. Obligé de me reconvertir, j'ai saisi cette opportunité pour explorer ma passion naissante pour l'informatique. Déterminé à apprendre, j'ai commencé à me former en autodidacte, plongeant dans le monde du développement web. Mon désir de progresser m'a conduit à Ynov Campus de Bordeaux, où j'ai trouvé une communauté dynamique et un environnement propice à mon épanouissement. Aujourd'hui, je suis heureux de dire que j'ai trouvé ma voie et que je poursuis mon chemin avec enthousiasme dans le monde de la technologie et du développement. Je suis actuellement à la recherche d'un stage pour cette année et d'une alternance pour la rentrée 2024 pour 3 ans."
+            text: "Mon parcours a débuté avec un diplôme en Bac Pro option Jardinerie, mais un accident du travail a changé le cours de ma vie. Obligé de me reconvertir, j'ai saisi cette opportunité pour explorer ma passion naissante pour l'informatique. Déterminé à apprendre, j'ai commencé à me former en autodidacte, plongeant dans le monde du développement web. Mon désir de progresser m'a conduit à Ynov Campus de Bordeaux, où j'ai trouvé une communauté dynamique et un environnement propice à mon épanouissement. Aujourd'hui, je suis heureux de dire que j'ai trouvé ma voie et que je poursuis mon chemin avec enthousiasme dans le monde de la technologie et du développement. Je suis actuellement à la recherche d'une alternance pour la rentrée 2024 pour 3 ans."
         }
     ],
     social: [
