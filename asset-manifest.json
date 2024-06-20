@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Florentin-Fallon/static/css/main.191c2407.css",
-    "main.js": "/Florentin-Fallon/static/js/main.8dc61bd6.js",
+    "main.js": "/Florentin-Fallon/static/js/main.ecaf3426.js",
     "static/media/mock3.png": "/Florentin-Fallon/static/media/mock3.5005efa8c4fb749c61ef.png",
     "static/media/mock4.png": "/Florentin-Fallon/static/media/mock4.6e74f118dbf665c2cc2c.png",
     "static/media/mock7.png": "/Florentin-Fallon/static/media/mock7.7e39cd213779f1173fcd.png",
@@ -27,10 +27,10 @@
     "static/media/trello.jpg": "/Florentin-Fallon/static/media/trello.57d4d8237674633665f6.jpg",
     "index.html": "/Florentin-Fallon/index.html",
     "main.191c2407.css.map": "/Florentin-Fallon/static/css/main.191c2407.css.map",
-    "main.8dc61bd6.js.map": "/Florentin-Fallon/static/js/main.8dc61bd6.js.map"
+    "main.ecaf3426.js.map": "/Florentin-Fallon/static/js/main.ecaf3426.js.map"
   },
   "entrypoints": [
     "static/css/main.191c2407.css",
-    "static/js/main.8dc61bd6.js"
+    "static/js/main.ecaf3426.js"
   ]
 }
